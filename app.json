@@ -1,15 +1,30 @@
 {
-  "name": "HerokuBannedDeployer",
-  "description": "With this you can deploy repos that are banned/blacklisted by heroku",
-  "keywords": [
-    "telegram",
-    "open",
-    "source",
-    "multi",
-    "purpose",
-    "remote",
-    "deployer"
-  ],
+
+    "name": "Antiban",
+
+    "description": "Download videos from various websites using this telegram bot",
+
+    "repository": "",
+    "buildpacks":[
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "keywords": [
+
+       
+
+        "telegram bot",
+
+        "pyrogram"
+
+    ],
   "env": {
     "OTHER_INSTALLS": {
       "description": "If you need install packages for running your app(Python is pre-installed).[Space in between each package]",
@@ -30,15 +45,17 @@
       "required": false
     }
   },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
+  "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+       {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+       }
+       
+    ]
+
 }
