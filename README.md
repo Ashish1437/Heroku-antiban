@@ -12,7 +12,7 @@ With this you can deploy repos that are banned/blacklisted by heroku in differen
 ## Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-<a href="https://heroku.com/deploy?template=https://github.com/viratvijay143/HERUKO-NO-BAN">
+<a href="https://heroku.com/deploy?template=https://github.com/Ashish1437/Heroku-antiban">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 # Note:
